@@ -44,5 +44,5 @@ jobs:
           file: ./exercises/python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: maabuibaid/python-helloworld:v.1.1.0
+          tags: maabuibaid/python-helloworld:v1.1.0
 # This is copied from solutions
