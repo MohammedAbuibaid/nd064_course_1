@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: python-manifests
-    repoURL: https://github.com/MohammedAbuibaid/nd064_course_1/tree/master/exercises/python-helloworld
+    path: exercises/python-helloworld/python-manifests
+    repoURL: https://github.com/MohammedAbuibaid/nd064_course_1
     targetRevision: HEAD
   syncPolicy: {}
