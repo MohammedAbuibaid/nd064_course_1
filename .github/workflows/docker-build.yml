@@ -41,7 +41,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./exercises/python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: pixelpotato/python-helloworld:latest
+          tags: maabuibaid/python-helloworld:latest
+# This is copied from solutions
